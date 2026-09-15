@@ -1,0 +1,52 @@
+body {
+    background-color: #111;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 30;
+    color: #eee;
+}
+
+.container {
+    margin: 0 300;
+    padding: 1 0;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+}
+
+.contained {
+    background-color: #222;
+    color: #eee;
+    padding: 20;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.p1 {
+    color: #eee;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.flexed {
+    width: 400px;
+}
+
+.bid_item {
+    max-width: 200px;
+    background-color: #eee;
+    padding: 0;
+    margin: 10px;
+    border-radius: 10px;
+}
