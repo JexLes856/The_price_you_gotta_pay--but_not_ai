@@ -95,10 +95,6 @@ h2 {
     padding: 0px;
 }
 
-.name::placeholder {
-    
-}
-
 .player_new {
     background-color: #ff5722;
     color: #eee;
