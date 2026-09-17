@@ -10,6 +10,7 @@
 
 * {
     font-family: Comic_;
+    color: #eee;
 }
 
 body {
@@ -112,4 +113,24 @@ h2 {
 
 input {
     padding: 8px !important;
+}
+
+.leaderboard {
+    margin-top: 10px;
+    font-family: Comic_;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #333;
+}
+
+td, th {
+  border: 1px solid #555;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  height: 17px;
+}
+
+tr:nth-child(even) {
+  background-color: #444;
 }
