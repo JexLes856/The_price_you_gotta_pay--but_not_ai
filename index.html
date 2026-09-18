@@ -2,7 +2,9 @@
     <head>
         <title>The price you gotta pay</title>
         <link rel="stylesheet" href="https://jexles856.github.io/The_price_you_gotta_pay--but_not_ai/style.css">
-        <!--<link rel="stylesheet" href="/style.css">-->
+        <link rel="icon" type="image/svg+xml" href="https://jexles856.github.io/The_price_you_gotta_pay--but_not_ai/favicon.svg">
+        <!--<link rel="stylesheet" href="/style.css">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />-->
     </head>
     <body>
         <h1>The price you gotta pay</h1>
@@ -42,8 +44,26 @@
                 </div>
             </div>
             <div class="bid contained">
-                <h2>Place a bid</h2>
+                <h2 class="bid-h2">Place a bid</h2>
+                <form class="bidding-form">
+                    <select id="bidder" placeholder="Player" class="pick-bidder">
+                        <option>Select player</option>
+                    </select>
+                    <div>
+                        <button class="bid-type-button" onclick="money_bid()">Money</button>
+                        <button class="bid-type-button" onclick="crazy_bid()">Outrageous / Crazy</button>
+                    </div>
+                    <div class="money-input">
+                        <input class="input-money" type="number" placeholder="Put amount of dollars (do not type the dollar sign)">
+                    </div>
+                    <div class="crazy-input" style="display: ;">
+                        <input class="input-crazy" placeholder="Item/thing to use as bid money">
+                        <input class="value" placeholder="Value of the item/thing">
+                    </div>
+                    <button class="bid-submit">Submit Bid</button>
+                </form>
             </div>
+            <br>
             <div class="leaderboard-container contained">
                 <h2>Leaderboard</h2>
                 <table class="leaderboard">

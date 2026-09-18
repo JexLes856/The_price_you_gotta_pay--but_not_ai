@@ -134,3 +134,67 @@ td, th {
 tr:nth-child(even) {
   background-color: #444;
 }
+
+.pick-bidder {
+    height: 40px;
+    width: 90%;
+}
+
+.bid-type-button {
+    height: 40px;
+    width: 45%;
+}
+
+.input-money {
+    height: 40px;
+    width: 90%;
+}
+
+.input-crazy {
+    height: 40px;
+    width: 50%;
+}
+
+.value {
+    height: 40px;
+    width: 50%;
+}
+
+.crazy-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto !important;
+}
+
+.bid-submit {
+    height: 40px;
+    width: 90%;
+}
+
+.bidding-form * {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.bid-h2 {
+    margin-bottom: 15px;
+}
+
+input, select {
+background-color: #111;
+    color: #eee;
+    border-color: #444;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+button {
+    background-color: #ff5722;
+    color: #eee;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 10px;
+}
