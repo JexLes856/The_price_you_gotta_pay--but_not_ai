@@ -34,7 +34,7 @@
                     <h2>Sign up</h2>
                     <p class="p2">Max ten players</p>
                     <form>
-                        <input type="text" placeholder="Name (Can be anything)" class="name">
+                        <input id="name" type="text" placeholder="Name (Can be anything)" class="name">
                         <br>
                         <button class="player_new">Add player</button>
                     </form>
@@ -45,23 +45,23 @@
             </div>
             <div class="bid contained">
                 <h2 class="bid-h2">Place a bid</h2>
-                <form class="bidding-form">
+                <div class="bidding-form">
                     <select id="bidder" placeholder="Player" class="pick-bidder">
                         <option>Select player</option>
                     </select>
                     <div>
-                        <button class="bid-type-button" onclick="money_bid()">Money</button>
-                        <button class="bid-type-button" onclick="crazy_bid()">Outrageous / Crazy</button>
+                        <button class="bid-type-button" id="money-input-button">Money</button>
+                        <button class="bid-type-button" id="crazy-input-button">Outrageous / Crazy</button>
                     </div>
-                    <div class="money-input">
-                        <input class="input-money" type="number" placeholder="Put amount of dollars (do not type the dollar sign)">
+                    <div class="money-input" id="money-input"> 
+                        <input id="input-money" class="input-money" type="number" placeholder="Put amount of dollars (do not type the dollar sign)">
                     </div>
-                    <div class="crazy-input" style="display: ;">
-                        <input class="input-crazy" placeholder="Item/thing to use as bid money">
-                        <input class="value" placeholder="Value of the item/thing">
+                    <div class="crazy-input" id="crazy-input" style="display: none;">
+                        <input id="input-crazy" class="input-crazy" placeholder="Item/thing to use as bid money">
+                        <input id="vallue" class="value" placeholder="Value of the item/thing">
                     </div>
                     <button class="bid-submit">Submit Bid</button>
-                </form>
+                </div>
             </div>
             <br>
             <div class="leaderboard-container contained">
