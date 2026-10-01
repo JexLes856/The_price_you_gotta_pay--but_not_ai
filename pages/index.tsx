@@ -1,26 +1,9 @@
 "use client";
 
-//import "./style.css";
 import { useState } from "react";
 import Head from "next/head";
 
 export default function PageJs() {
-
-    /*const money_input = document.getElementById("money-input");
-    const crazy_input = document.getElementById("crazy-input");
-    const money_button = document.getElementById("money-input-button");
-    const crazy_button = document.getElementById("crazy-input-button");
-    //var crazy_money = money
-
-    money_button.addEventListener("click", () => {
-        money_input.style.display="block";
-        crazy_input.style.display="none";
-    });
-
-    crazy_button.addEventListener("click", () => {
-        money_input.style.display="none";
-        crazy_input.style.display="flex";
-    });*/
 
     const [moneyValue, setMoneyValue] = useState(true);
 
@@ -56,7 +39,6 @@ export default function PageJs() {
                         </div>
                         <div className="signup contained flexed">
                             <h2 style={{marginBottom: "30px",}}>Sign up</h2>
-                            {/*<!--<p className="p2">Max ten players</p>-->*/}
                             <form>
                                 <input id="name" type="text" placeholder="Name (Can be anything)" className="name"/>
                                 <br/>
